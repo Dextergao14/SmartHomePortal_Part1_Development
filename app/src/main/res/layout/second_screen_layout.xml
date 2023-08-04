@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <VideoView
+            android:id="@+id/gestureVideos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/capture"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_centerInParent="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:linksClickable="true"
+            android:text="capture" />
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/gestureVideos"
+        android:layout_alignParentBottom="true"
+        android:insetBottom="6dp"
+        android:text="back"
+        android:visibility="visible" />
+
+</android.widget.RelativeLayout>

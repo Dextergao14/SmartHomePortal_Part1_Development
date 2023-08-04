@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="652dp"
+        android:height="40dp"
+        android:accessibilityLiveRegion="assertive"
+        android:linksClickable="true"
+        android:text="upload" />
+
+    <Button
+        android:id="@+id/undo"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="0dp"
+        android:height="40dp"
+        android:accessibilityLiveRegion="assertive"
+        android:linksClickable="true"
+        android:text="undo" />
+
+    <VideoView
+        android:id="@+id/recordedVideos"
+        android:layout_width="388dp"
+        android:layout_height="469dp"
+        android:layout_centerInParent="true" />
+</android.widget.RelativeLayout>
